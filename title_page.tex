@@ -1,0 +1,43 @@
+\include{personal_info.tex}
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+
+        \huge
+        % \textbf{HKUST (GZ)}
+        \vspace{0.5cm}
+
+        \textbf{Thesis Proposal for MPhil Degree}
+
+        \vspace{3cm}
+        
+        \begin{minipage}{0.8\textwidth}
+            \Large
+            \centering
+
+            \begin{tabular}{l@{}ll}
+                \textbf{Student Name}\vspace{0.5cm} &     & \wideunderline[16em]{\StudentName} \\
+                \textbf{ID Number}\vspace{0.5cm} &     & \wideunderline[16em]{\StudentID} \\
+                \textbf{Group Project}\vspace{0.5cm} &     & \wideunderline[16em]{{\GroupProjectTitle}} \\ 
+                \textbf{Project Manager}\vspace{0.5cm} &     & \wideunderline[16em]{\ProjectManager} \\
+                \textbf{Project Supervisor}\vspace{0.5cm} &     & \wideunderline[16em]{\ProjectSupervisor} \\
+                \textbf{Individual Project}\vspace{0.5cm}&     & \wideunderline[16em]{{\IndividualProjectTitle}}  \\
+                \textbf{Thesis Supervisor(s)}\vspace{0.5cm} &     & \wideunderline[16em]{{\Supervisor}}  \\
+                \textbf{Student's Thrust \& Hub}\vspace{0.5cm} &     & \wideunderline[16em]{\StuThrustHub} \\
+            \end{tabular}
+
+        \end{minipage}
+
+        \vfill
+
+        \normalsize
+        
+        \newdateformat{monthyeardate}{%
+        \THEMONTH/\THEYEAR}
+        \renewcommand{\monthyeardate}{\ifcase \month \or 1\or 2\or 3\or %
+        4\or 5 \or 6\or 7\or 8\or 9\or 10\or 11\or 12\fi/\number \year} \monthyeardate
+        
+        \text{The Hong Kong University of Science and Technology (Guangzhou)} 
+
+    \end{center}
+\end{titlepage}

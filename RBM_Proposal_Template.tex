@@ -1,0 +1,92 @@
+% This is file JFM2esam.tex
+% first release v1.0, 20th October 1996
+%       release v1.01, 29th October 1996
+%       release v1.1, 25th June 1997
+%       release v2.0, 27th July 2004
+%       release v3.0, 16th July 2014
+%       release v4.0, 15th June 2017
+%   (based on JFMsampl.tex v1.3 for LaTeX2.09)
+% Copyright (C) 1996, 1997, 2014, 2017 Cambridge University Press
+
+\documentclass[12pt]{Style/RBM_P}
+\usepackage{graphicx}
+% \usepackage{epstopdf, epsfig}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage[a4paper, left=25mm, right=25mm, top=30mm, bottom=30mm]{geometry}
+
+% \usepackage[square, comma, sort&compress, numbers]{natbib}
+% \bibliographystyle{IEEEtran}
+
+\usepackage[style=ieee]{biblatex}
+\bibliography{reference/reference.bib}
+
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+
+
+\title{Title of RBM Research Proposal}
+
+
+\begin{document}
+
+\input{title_page}
+\spacing{1.5}
+
+\maketitle
+
+
+\begin{abstract}
+\textbf{Abstract: } This file contains instructions for authors planning to submit \textit{Thesis Proposal for Red Bird Mphil}. These instructions were generated in {\LaTeX} according to the instruction provided by RBM, so the {\LaTeX} source file can be used as a template for submissions. The present paragraph appears in the \verb|abstract| environment. All papers should feature a single-paragraph abstract of no more than 250 words, which provides a summary of the main aims and results.
+\end{abstract}
+
+\input{Style/instruction.tex}
+
+\section{Citations and references}
+
+%All papers included in the References section must be cited in the article, and vice versa. Citations should be included as, for example ``It has been shown \citep{Rogallo81} that...'' (using the {\verb}\citep} command, part of the natbib package) ``recent work by \citet{Dennis85}...'' (using {\verb}\citet}).
+The natbib package can be used to generate citation variations, as shown below. \cite{ngFederatedBayesianNetwork2022}
+
+% \begin{itemize}
+% \item \verb#\citet[pp. 2-4]{Galtier00}#:
+% \citet[pp. 479-480]{Galtier00} 
+% \item \verb#\citep[p. 6]{Worster92}#:
+% \citep[p. 6]{Worster92}
+% \item \verb#\citep[see][]{Koch83, Lee71, Linton92}#:
+% \citep[see][]{Koch83, Lee71, Linton92}
+% \item \verb#\citep[see][p. 18]{Martin80}#:
+% \citep[see][p. 18]{Martin80}
+% \item \verb#\citep{Brownell04,Brownell07,Ursell50,Wijngaarden68,Miller91}#:
+% \citep{Brownell04,Brownell07,Ursell50,Wijngaarden68,Miller91}
+% \end{itemize}
+
+The References section can either be built from individual \verb#\bibitem# commands, or can be built using BibTex. The BibTex files used to generate the references in this document can be found in the zip file in the Instructions for Contributors section of the JPP website.
+
+Where there are up to ten authors, all authors' names should be given in the reference list. Where there are more than ten authors, only the first name should appear, followed by et al.
+
+Acknowledgements should be included at the end of the paper, before the References section or any appendicies, and should be a separate paragraph without a heading. Several anonymous individuals are thanked for contributions to these instructions.
+
+\appendix
+
+\section{}\label{appA}
+This appendix contains sample equations in the JPP style. Please refer to the {\LaTeX} source file for examples of how to display such equations in your manuscript.
+
+
+
+% susie put cite commands here, don't bother with citet etc just yet.
+
+% \bibliographystyle{jpp}
+% Note the spaces between the initials
+
+
+
+% \bibliography{jpp-instructions}
+\printbibliography
+% \bibliography{reference/reference2}
+
+
+\end{document}
