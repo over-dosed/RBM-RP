@@ -12,17 +12,18 @@
 \usepackage{graphicx}
 % \usepackage{epstopdf, epsfig}
 
-
+\usepackage{titlesec}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage{setspace}
 \usepackage[a4paper, left=25mm, right=25mm, top=30mm, bottom=30mm]{geometry}
 
+
 % \usepackage[square, comma, sort&compress, numbers]{natbib}
 % \bibliographystyle{IEEEtran}
 
-\usepackage[style=ieee]{biblatex}
+\usepackage[style=ieee, backend=bibtex]{biblatex}
 \bibliography{reference/reference.bib}
 
 \newtheorem{lemma}{Lemma}
@@ -34,35 +35,30 @@
 
 \begin{document}
 
-\input{title_page}
+% title, contents, abstract
+\pagenumbering{roman}
+\include{Pages/title_page}
 \spacing{1.5}
 
-\maketitle
+\include{Pages/contents}
+
+\include{Pages/abstract}
 
 
-\begin{abstract}
-\textbf{Abstract: } This file contains instructions for authors planning to submit \textit{Thesis Proposal for Red Bird Mphil}. These instructions were generated in {\LaTeX} according to the instruction provided by RBM, so the {\LaTeX} source file can be used as a template for submissions. The present paragraph appears in the \verb|abstract| environment. All papers should feature a single-paragraph abstract of no more than 250 words, which provides a summary of the main aims and results.
-\end{abstract}
+% main text
+\pagenumbering{arabic}
 
-\input{Style/instruction.tex}
+\include{Pages/Part_1}
+
+\include{Pages/Part_2}
+
+
+\include{Style/instruction.tex} 
 
 \section{Citations and references}
 
 %All papers included in the References section must be cited in the article, and vice versa. Citations should be included as, for example ``It has been shown \citep{Rogallo81} that...'' (using the {\verb}\citep} command, part of the natbib package) ``recent work by \citet{Dennis85}...'' (using {\verb}\citet}).
 The natbib package can be used to generate citation variations, as shown below. \cite{ngFederatedBayesianNetwork2022}
-
-% \begin{itemize}
-% \item \verb#\citet[pp. 2-4]{Galtier00}#:
-% \citet[pp. 479-480]{Galtier00} 
-% \item \verb#\citep[p. 6]{Worster92}#:
-% \citep[p. 6]{Worster92}
-% \item \verb#\citep[see][]{Koch83, Lee71, Linton92}#:
-% \citep[see][]{Koch83, Lee71, Linton92}
-% \item \verb#\citep[see][p. 18]{Martin80}#:
-% \citep[see][p. 18]{Martin80}
-% \item \verb#\citep{Brownell04,Brownell07,Ursell50,Wijngaarden68,Miller91}#:
-% \citep{Brownell04,Brownell07,Ursell50,Wijngaarden68,Miller91}
-% \end{itemize}
 
 The References section can either be built from individual \verb#\bibitem# commands, or can be built using BibTex. The BibTex files used to generate the references in this document can be found in the zip file in the Instructions for Contributors section of the JPP website.
 
@@ -74,6 +70,8 @@ Acknowledgements should be included at the end of the paper, before the Referenc
 
 \section{}\label{appA}
 This appendix contains sample equations in the JPP style. Please refer to the {\LaTeX} source file for examples of how to display such equations in your manuscript.
+
+
 
 
 

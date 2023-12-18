@@ -1,0 +1,66 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{ngFederatedBayesianNetwork2022}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=NI}{%
+         family={Ng},
+         familyi={N\bibinitperiod},
+         given={Ignavier},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ZK}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Kun},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{PMLR}}%
+    }
+    \strng{namehash}{NIZK1}
+    \strng{fullhash}{NIZK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Traditionally, Bayesian network structure learning is often carried out at a central site, in which all data is gathered. However, in practice, data may be distributed across different parties (e.g., companies, devices) who intend to collectively learn a Bayesian network, but are not willing to disclose information related to their data owing to privacy or security concerns. In this work, we present a federated learning approach to estimate the structure of Bayesian network from data that is horizontally partitioned across different parties. We develop a distributed structure learning method based on continuous optimization, using the alternating direction method of multipliers (ADMM), such that only the model parameters have to be exchanged during the optimization process. We demonstrate the flexibility of our approach by adopting it for both linear and nonlinear cases. Experimental results on synthetic and real datasets show that it achieves an improved performance over the other methods, especially when there is a relatively large number of clients and each has a limited sample size.%
+    }
+    \field{booktitle}{Proceedings of {{The}} 25th {{International Conference}} on {{Artificial Intelligence}} and {{Statistics}}}
+    \field{eventtitle}{International {{Conference}} on {{Artificial Intelligence}} and {{Statistics}}}
+    \field{issn}{2640-3498}
+    \field{pages}{8095\bibrangedash 8111}
+    \field{title}{Towards {{Federated Bayesian Network Structure Learning}} with {{Continuous Optimization}}}
+    \verb{url}
+    \verb https://proceedings.mlr.press/v151/ng22a.html
+    \endverb
+    \field{langid}{english}
+    \verb{file}
+    \verb /Users/tongyuan/Zotero/storage/SWMLU5FA/Ng_Zhang_2022_Towards Federat
+    \verb ed Bayesian Network Structure Learning with Continuous.pdf
+    \endverb
+    \field{day}{03}
+    \field{month}{05}
+    \field{year}{2022}
+    \field{urlday}{06}
+    \field{urlmonth}{02}
+    \field{urlyear}{2023}
+  \endentry
+\enddatalist
+\endinput

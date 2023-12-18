@@ -339,7 +339,8 @@
 \newcommand\subparagraph{}
 
 \def\@seccntformat#1{% FROM LATEX.LTX
-  \normalfont\rmfamily\csname the#1\endcsname.\enskip
+  % \normalfont\rmfamily\csname the#1\endcsname.\enskip % 这里为什么多加一个点号？??
+  \normalfont\rmfamily\csname the#1\endcsname\enskip % 这里为什么多加一个点号？??
 }
 
 \def\@secappcntformat#1{%
@@ -407,7 +408,7 @@
   \global\appendixtrue
 }
 
-\setcounter{secnumdepth}{3}
+\setcounter{secnumdepth}{4}
 
 \newcounter {part}
 \newcounter {section}
@@ -827,6 +828,7 @@
         \centerline{\unhbox\@tempboxa\quad}\fi
       \fi}%
     \newpage \global\@topnum\z@
+    % \@maketitle{#1}\thispagestyle{titlepage}\@thanks
     \@maketitle{#1}\thispagestyle{titlepage}\@thanks
   \egroup
   \endgroup
@@ -894,7 +896,13 @@
 }
 
 \newenvironment{abstract}
-  {\par\normalfont\normalsize\noindent\ignorespaces}
+  {\par\normalfont\normalsize\noindent\ignorespaces \thispagestyle{plain}}
+  {\par\vskip 9\p@ \@plus 1\p@ \@minus 1\p@
+%   \vbox{\centerline{\rule[4\p@]{30pc}{.4\p@}}}
+}
+
+\newenvironment{contents}
+  {\par\normalfont\normalsize\noindent\ignorespaces \thispagestyle{plain}}
   {\par\vskip 9\p@ \@plus 1\p@ \@minus 1\p@
 %   \vbox{\centerline{\rule[4\p@]{30pc}{.4\p@}}}
 }
@@ -956,10 +964,10 @@
   \vss}%
 }
 \gdef\@underjournal{%
-  \vbox to 5.5\p@{\noindent
-    \parbox[t]{4.5in}{\normalfont\indexsize{\itshape RBM Thesis Proposal}\\[2.5\p@]
-      {\ \ }}%
-  \vss}%
+  % \vbox to 5.5\p@{\noindent
+  %   \parbox[t]{4.5in}{\normalfont\indexsize{\itshape RBM Thesis Proposal}\\[2.5\p@]
+  %     {\ \ }}%
+  % \vss}%
 }
 
 \def\ps@headings{\let\@mkboth\markboth
@@ -998,7 +1006,7 @@
 \newcommand\@pnumwidth{1.55em}
 \newcommand\@tocrmarg {2.55em}
 \newcommand\@dotsep{4.5}
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{3}
 
 \def\@dottedtocline#1#2#3#4#5{% FROM LATEX.LTX
   \ifnum #1>\c@tocdepth \else
@@ -1018,13 +1026,13 @@
      \par}%
   \fi}
 
-\newcommand\contentsname{CONTENTS}
+\newcommand\contentsname{TABLE OF CONTENTS}
 
 \newcommand\tableofcontents{%
   \@restonecolfalse
   \if@twocolumn\@restonecoltrue\onecolumn\fi
   \vskip 4\p@ \@plus .5\p@
-  \centerline{\normalfont\scshape \contentsname}%
+  \leftline{\textbf{\contentsname} \normalfont\scshape}%
   \vskip 3\p@
   \@starttoc{toc}%
   \if@restonecol\twocolumn\fi \par\vspace{12\p@}%
@@ -1201,12 +1209,6 @@
   {\par\vskip 10\p@ \@plus 1\p@ \@minus 1\p@}{\par}
 \let\acknowledgements\acknowledgments
 \let\endacknowledgements\endacknowledgments
-
-\newcommand\today{}
-\edef\today{\number\day\ \ifcase\month\or
-  January\or February\or March\or April\or May\or June\or
-  July\or August\or September\or October\or November\or December
- \fi \ \number\year}
 
 \newif\if@altcite
 \renewcommand\@biblabel[1]{}% FROM LATEX.LTX

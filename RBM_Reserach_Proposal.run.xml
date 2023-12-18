@@ -44,11 +44,11 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>RBM_Proposal_Template.aux</file>
-      <file>RBM_Proposal_Template-blx.bib</file>
+      <file>RBM_Reserach_Proposal.aux</file>
+      <file>RBM_Reserach_Proposal-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>RBM_Proposal_Template.bbl</file>
+      <file>RBM_Reserach_Proposal.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -71,20 +71,20 @@
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>RBM_Proposal_Template</infile>
+      <infile>RBM_Reserach_Proposal</infile>
     </cmdline>
     <input>
-      <file>RBM_Proposal_Template.aux</file>
+      <file>RBM_Reserach_Proposal.aux</file>
     </input>
     <output>
-      <file>RBM_Proposal_Template.bbl</file>
+      <file>RBM_Reserach_Proposal.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>RBM_Proposal_Template.bbl</file>
+      <file>RBM_Reserach_Proposal.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>RBM_Proposal_Template.aux</file>
-      <file>RBM_Proposal_Template-blx.bib</file>
+      <file>RBM_Reserach_Proposal.aux</file>
+      <file>RBM_Reserach_Proposal-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>reference/reference.bib</file>
