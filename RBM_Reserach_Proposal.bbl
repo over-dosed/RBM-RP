@@ -17,50 +17,2150 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{ngFederatedBayesianNetwork2022}{inproceedings}{}
-    \name{author}{2}{}{%
-      {{hash=NI}{%
-         family={Ng},
+  \entry{Survey_on_the_Metaverse}{article}{}
+    \name{author}{8}{}{%
+      {{hash=WH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Hang},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=NH}{%
+         family={Ning},
          familyi={N\bibinitperiod},
-         given={Ignavier},
-         giveni={I\bibinitperiod},
+         given={Huansheng},
+         giveni={H\bibinitperiod},
       }}%
-      {{hash=ZK}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={Kun},
-         giveni={K\bibinitperiod},
+      {{hash=LY}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Yujia},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Wenxi},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dhelim},
+         familyi={D\bibinitperiod},
+         given={Sahraoui},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FF}{%
+         family={Farha},
+         familyi={F\bibinitperiod},
+         given={Fadi},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Ding},
+         familyi={D\bibinitperiod},
+         given={Jianguo},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Daneshmand},
+         familyi={D\bibinitperiod},
+         given={Mahmoud},
+         giveni={M\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {{PMLR}}%
-    }
-    \strng{namehash}{NIZK1}
-    \strng{fullhash}{NIZK1}
+    \strng{namehash}{WHNHLY+1}
+    \strng{fullhash}{WHNHLYWWDSFFDJDM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    Traditionally, Bayesian network structure learning is often carried out at a central site, in which all data is gathered. However, in practice, data may be distributed across different parties (e.g., companies, devices) who intend to collectively learn a Bayesian network, but are not willing to disclose information related to their data owing to privacy or security concerns. In this work, we present a federated learning approach to estimate the structure of Bayesian network from data that is horizontally partitioned across different parties. We develop a distributed structure learning method based on continuous optimization, using the alternating direction method of multipliers (ADMM), such that only the model parameters have to be exchanged during the optimization process. We demonstrate the flexibility of our approach by adopting it for both linear and nonlinear cases. Experimental results on synthetic and real datasets show that it achieves an improved performance over the other methods, especially when there is a relatively large number of clients and each has a limited sample size.%
+    In recent years, the concept of the Metaverse has attracted considerable attention. This article provides a comprehensive overview of the Metaverse. First, the development status of the Metaverse is presented. We summarize the policies of various countries, companies, and organizations relevant to the Metaverse, as well as statistics on the number of Metaverse-related publications. Characteristics of the Metaverse are identified: 1) multitechnology convergence; 2) sociality; and 3) hyper-spatio-temporality. For the multitechnology convergence of the Metaverse, we divide the technological framework of the Metaverse into five dimensions. For the sociality of the Metaverse, we focus on the Metaverse as a virtual social world. Regarding the characteristic of hyper-spatio-temporality, we introduce the Metaverse as an open, immersive, and interactive 3-D virtual world which can break through the constraints of time and space in the real world. The challenges of the Metaverse are also discussed.%
     }
-    \field{booktitle}{Proceedings of {{The}} 25th {{International Conference}} on {{Artificial Intelligence}} and {{Statistics}}}
-    \field{eventtitle}{International {{Conference}} on {{Artificial Intelligence}} and {{Statistics}}}
-    \field{issn}{2640-3498}
-    \field{pages}{8095\bibrangedash 8111}
-    \field{title}{Towards {{Federated Bayesian Network Structure Learning}} with {{Continuous Optimization}}}
+    \verb{doi}
+    \verb 10.1109/JIOT.2023.3278329
+    \endverb
+    \field{issn}{2327-4662}
+    \field{number}{16}
+    \field{pages}{14671\bibrangedash 14688}
+    \field{title}{A Survey on the Metaverse: The State-of-the-Art, Technologies, Applications, and Challenges}
+    \field{volume}{10}
+    \field{journaltitle}{IEEE Internet of Things Journal}
+    \field{year}{2023}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Metaverse_Market_Size}{misc}{}
+    \list{language}{1}{%
+      {en}%
+    }
+    \field{labeltitlesource}{title}
+    \field{booktitle}{{BrandEssence\textregistered{}} Market Research}
+    \field{howpublished}{\url{https://brandessenceresearch.com/technology-and-media/metaverse-market-size}}
+    \field{note}{Accessed: 2023-12-19}
+    \field{title}{Metaverse market}
+  \endentry
+
+  \entry{Saivasan2023-am}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SR}{%
+         family={Saivasan},
+         familyi={S\bibinitperiod},
+         given={Rangapriya},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lokhande},
+         familyi={L\bibinitperiod},
+         given={Madhavi},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{SRLM1}
+    \strng{fullhash}{SRLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Exploring use cases of generative {AI} and metaverse in financial analytics: Unveiling the synergies of advanced technologies}
+    \field{journaltitle}{International Journal of Global Business and Competitiveness}
+    \field{year}{2023}
+  \endentry
+
+  \entry{liang2023tachikuma}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=LY}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Yuanzhi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZL}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Linchao},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LYZLYY1}
+    \strng{fullhash}{LYZLYY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 2307.12573
+    \endverb
+    \field{title}{Tachikuma: Understading Complex Interactions with Multi-Character and Novel Objects by Large Language Models}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CL}
+    \field{year}{2023}
+  \endentry
+
+  \entry{park2023generative}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=PJS}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Joon\bibnamedelima Sung},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=OJ}{%
+         family={O'Brien},
+         familyi={O\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CCJ}{%
+         family={Cai},
+         familyi={C\bibinitperiod},
+         given={Carrie\bibnamedelima Jun},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MMR}{%
+         family={Morris},
+         familyi={M\bibinitperiod},
+         given={Meredith\bibnamedelima Ringel},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Percy},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BMS}{%
+         family={Bernstein},
+         familyi={B\bibinitperiod},
+         given={Michael\bibnamedelima S},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJSOJCCJ+1}
+    \strng{fullhash}{PJSOJCCJMMRLPBMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology}
+    \field{pages}{1\bibrangedash 22}
+    \field{title}{Generative agents: Interactive simulacra of human behavior}
+    \field{year}{2023}
+  \endentry
+
+  \entry{riedl2012interactive}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=RM}{%
+         family={Riedl},
+         familyi={R\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BV}{%
+         family={Bulitko},
+         familyi={B\bibinitperiod},
+         given={Vadim},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RMBV1}
+    \strng{fullhash}{RMBV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the AAAI Conference on Artificial Intelligence}
+    \field{number}{1}
+    \field{pages}{2160\bibrangedash 2165}
+    \field{title}{Interactive narrative: A novel application of artificial intelligence for computer games}
+    \field{volume}{26}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Tech_undated-bj}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=TWM}{%
+         family={Tech},
+         familyi={T\bibinitperiod},
+         given={Www\bibnamedelima Metaverseinsider},
+         giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TWM1}
+    \strng{fullhash}{TWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Metaverseinsider.tech}
+    \field{howpublished}{\url{https://metaverseinsider.tech/wp-content/uploads/2022/11/MARKETREPORT.pdf}}
+    \field{note}{Accessed: 2023-12-26}
+    \field{title}{{M} A {R} {K} {E} {T} {R} {E} {P} {O} {R} {T}}
+  \endentry
+
+  \entry{Metaverse_Market}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Researchgate.net}
+    \field{howpublished}{\url{https://www.researchgate.net/publication/368958902_Metaverse_Market_Size_Share_Growth_and_Trends_Report_2023}}
+    \field{note}{Accessed: 2023-12-26}
+    \field{title}{Metaverse Market Size, Share, Growth, and Trends Report 2023}
+  \endentry
+
+  \entry{AIGAME_Market_research}{misc}{}
+    \list{language}{1}{%
+      {en}%
+    }
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Technavio.com}
+    \field{howpublished}{\url{https://www.technavio.com/report/ai-in-games-market-industry-analysis}}
+    \field{note}{Accessed: 2023-12-26}
+    \field{title}{Market research reports - industry analysis size \& trends - technavio}
+  \endentry
+
+  \entry{Inworld_Research}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Inworld.ai}
+    \field{howpublished}{\url{https://inworld.ai/whitepapers/future-of-npcs?utm_campaign=future-of-npcs&utm_source=Inworld_Blog}}
+    \field{note}{Accessed: 2023-12-26}
+    \field{title}{Inworld Research: What 1,000 gamers see for the Future of {NPCs}}
+  \endentry
+
+  \entry{liang_tachikuma_2023}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=LY}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Yuanzhi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZL}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Linchao},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Computation and Language, notion}
+    \strng{namehash}{LYZLYY1}
+    \strng{fullhash}{LYZLYY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.48550/arXiv.2307.12573
+    \endverb
+    \field{note}{arXiv:2307.12573 [cs]}
+    \field{shorttitle}{Tachikuma}
+    \field{title}{Tachikuma: {Understading} {Complex} {Interactions} with {Multi}-{Character} and {Novel} {Objects} by {Large} {Language} {Models}}
     \verb{url}
-    \verb https://proceedings.mlr.press/v151/ng22a.html
+    \verb http://arxiv.org/abs/2307.12573
     \endverb
-    \field{langid}{english}
-    \verb{file}
-    \verb /Users/tongyuan/Zotero/storage/SWMLU5FA/Ng_Zhang_2022_Towards Federat
-    \verb ed Bayesian Network Structure Learning with Continuous.pdf
-    \endverb
-    \field{day}{03}
-    \field{month}{05}
-    \field{year}{2022}
-    \field{urlday}{06}
-    \field{urlmonth}{02}
+    \field{month}{07}
+    \field{year}{2023}
+    \field{urlday}{24}
+    \field{urlmonth}{11}
     \field{urlyear}{2023}
+  \endentry
+
+  \entry{wu_deciphering_2023}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=WD}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Dekun},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Haochen},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SZ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Zhiyuan},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Bang},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Artificial Intelligence, notion, I.2.0, I.2.1, I.2.7}
+    \strng{namehash}{WDSHSZ+1}
+    \strng{fullhash}{WDSHSZLB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.48550/arXiv.2312.00746
+    \endverb
+    \field{note}{arXiv:2312.00746 [cs]}
+    \field{shorttitle}{Deciphering {Digital} {Detectives}}
+    \field{title}{Deciphering {Digital} {Detectives}: {Understanding} {LLM} {Behaviors} and {Capabilities} in {Multi}-{Agent} {Mystery} {Games}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2312.00746
+    \endverb
+    \field{month}{12}
+    \field{year}{2023}
+    \field{urlday}{26}
+    \field{urlmonth}{12}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{xu_language_2023}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=XZ}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Zelai},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=YC}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Chao},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FF}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Artificial Intelligence, Computer Science - Machine Learning, Computer Science - Multiagent Systems, notion}
+    \strng{namehash}{XZYCFF+1}
+    \strng{fullhash}{XZYCFFWYWY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.48550/arXiv.2310.18940
+    \endverb
+    \field{note}{arXiv:2310.18940 [cs]}
+    \field{title}{Language {Agents} with {Reinforcement} {Learning} for {Strategic} {Play} in the {Werewolf} {Game}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2310.18940
+    \endverb
+    \field{month}{10}
+    \field{year}{2023}
+    \field{urlday}{11}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{xu_exploring_2023}{misc}{}
+    \name{author}{7}{}{%
+      {{hash=XY}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Yuzhuang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Shuo},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Peng},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Luo},
+         familyi={L\bibinitperiod},
+         given={Fuwen},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xiaolong},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Weidong},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Computation and Language, notion}
+    \strng{namehash}{XYWSLP+1}
+    \strng{fullhash}{XYWSLPLFWXLWLY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.48550/arXiv.2309.04658
+    \endverb
+    \field{note}{arXiv:2309.04658 [cs]}
+    \field{shorttitle}{Exploring {Large} {Language} {Models} for {Communication} {Games}}
+    \field{title}{Exploring {Large} {Language} {Models} for {Communication} {Games}: {An} {Empirical} {Study} on {Werewolf}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2309.04658
+    \endverb
+    \field{month}{09}
+    \field{year}{2023}
+    \field{urlday}{11}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{kim_generative_2023}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=KM}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Munyeong},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Sungsu},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Artificial Intelligence, Computer Science - Human-Computer Interaction, notion}
+    \strng{namehash}{KMKS1}
+    \strng{fullhash}{KMKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.48550/arXiv.2309.11672
+    \endverb
+    \field{note}{arXiv:2309.11672 [cs]}
+    \field{title}{Generative {AI} in {Mafia}-like {Game} {Simulation}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2309.11672
+    \endverb
+    \field{month}{09}
+    \field{year}{2023}
+    \field{urlday}{14}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{guo_suspicion-agent_2023}{misc}{}
+    \name{author}{6}{}{%
+      {{hash=GJ}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Jiaxian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=YB}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Bo},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=YP}{%
+         family={Yoo},
+         familyi={Y\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LBY}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Bill\bibnamedelima Yuchen},
+         giveni={B\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=IY}{%
+         family={Iwasawa},
+         familyi={I\bibinitperiod},
+         given={Yusuke},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MY}{%
+         family={Matsuo},
+         familyi={M\bibinitperiod},
+         given={Yutaka},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Artificial Intelligence, notion}
+    \strng{namehash}{GJYBYP+1}
+    \strng{fullhash}{GJYBYPLBYIYMY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.48550/arXiv.2309.17277
+    \endverb
+    \field{note}{arXiv:2309.17277 [cs]}
+    \field{shorttitle}{Suspicion-{Agent}}
+    \field{title}{Suspicion-{Agent}: {Playing} {Imperfect} {Information} {Games} with {Theory} of {Mind} {Aware} {GPT}-4}
+    \verb{url}
+    \verb http://arxiv.org/abs/2309.17277
+    \endverb
+    \field{month}{10}
+    \field{year}{2023}
+    \field{urlday}{11}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{akata_playing_2023}{misc}{}
+    \name{author}{6}{}{%
+      {{hash=AE}{%
+         family={Akata},
+         familyi={A\bibinitperiod},
+         given={Elif},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Schulz},
+         familyi={S\bibinitperiod},
+         given={Lion},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CFJ}{%
+         family={Coda-Forno},
+         familyi={C\bibinithyphendelim F\bibinitperiod},
+         given={Julian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OSJ}{%
+         family={Oh},
+         familyi={O\bibinitperiod},
+         given={Seong\bibnamedelima Joon},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bethge},
+         familyi={B\bibinitperiod},
+         given={Matthias},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Schulz},
+         familyi={S\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Computation and Language, notion}
+    \strng{namehash}{AESLCFJ+1}
+    \strng{fullhash}{AESLCFJOSJBMSE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{arXiv:2305.16867 [cs]}
+    \field{title}{Playing repeated games with {Large} {Language} {Models}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2305.16867
+    \endverb
+    \field{month}{05}
+    \field{year}{2023}
+    \field{urlday}{11}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{mao_alympics_2023}{misc}{}
+    \name{author}{8}{}{%
+      {{hash=MS}{%
+         family={Mao},
+         familyi={M\bibinitperiod},
+         given={Shaoguang},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Cai},
+         familyi={C\bibinitperiod},
+         given={Yuzhe},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=XY}{%
+         family={Xia},
+         familyi={X\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Wenshan},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xun},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Fengyi},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Ge},
+         familyi={G\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Furu},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Computer Science and Game Theory, notion}
+    \strng{namehash}{MSCYXY+1}
+    \strng{fullhash}{MSCYXYWWWXWFGTWF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.48550/arXiv.2311.03220
+    \endverb
+    \field{note}{arXiv:2311.03220 [cs]}
+    \field{shorttitle}{{ALYMPICS}}
+    \field{title}{{ALYMPICS}: {Language} {Agents} {Meet} {Game} {Theory}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2311.03220
+    \endverb
+    \field{month}{11}
+    \field{year}{2023}
+    \field{urlday}{26}
+    \field{urlmonth}{12}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{lore_strategic_2023}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=LN}{%
+         family={Lorè},
+         familyi={L\bibinitperiod},
+         given={Nunzio},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Heydari},
+         familyi={H\bibinitperiod},
+         given={Babak},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Artificial Intelligence, Computer Science - Human-Computer Interaction, 91C99 (Primary), 91A05, 91A10, 91F99 (Secondary), Computer Science - Computer Science and Game Theory, Computer Science - Computers and Society, Economics - Theoretical Economics, I.2.8, J.4, K.4.m, notion}
+    \strng{namehash}{LNHB1}
+    \strng{fullhash}{LNHB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.48550/arXiv.2309.05898
+    \endverb
+    \field{note}{arXiv:2309.05898 [cs, econ]}
+    \field{shorttitle}{Strategic {Behavior} of {Large} {Language} {Models}}
+    \field{title}{Strategic {Behavior} of {Large} {Language} {Models}: {Game} {Structure} vs. {Contextual} {Framing}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2309.05898
+    \endverb
+    \field{month}{09}
+    \field{year}{2023}
+    \field{urlday}{11}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{todd_level_2023}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=TG}{%
+         family={Todd},
+         familyi={T\bibinitperiod},
+         given={Graham},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=ES}{%
+         family={Earle},
+         familyi={E\bibinitperiod},
+         given={Sam},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NMU}{%
+         family={Nasir},
+         familyi={N\bibinitperiod},
+         given={Muhammad\bibnamedelima Umair},
+         giveni={M\bibinitperiod\bibinitdelim U\bibinitperiod},
+      }}%
+      {{hash=GMC}{%
+         family={Green},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima Cerny},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Togelius},
+         familyi={T\bibinitperiod},
+         given={Julian},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \keyw{notion}
+    \strng{namehash}{TGESNMU+1}
+    \strng{fullhash}{TGESNMUGMCTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 18th {International} {Conference} on the {Foundations} of {Digital} {Games}}
+    \verb{doi}
+    \verb 10.1145/3582437.3587211
+    \endverb
+    \field{isbn}{978-1-4503-9855-8}
+    \field{pages}{1\bibrangedash 8}
+    \field{title}{Level {Generation} {Through} {Large} {Language} {Models}}
+    \verb{url}
+    \verb https://dl.acm.org/doi/10.1145/3582437.3587211
+    \endverb
+    \list{location}{1}{%
+      {Lisbon Portugal}%
+    }
+    \field{month}{04}
+    \field{year}{2023}
+    \field{urlday}{11}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{seow_lingoland_2023}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=SO}{%
+         family={Seow},
+         familyi={S\bibinitperiod},
+         given={Olivia},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{notion, Generative Games, Human-AI Interaction, Language Learning, Large Language Models}
+    \strng{namehash}{SO1}
+    \strng{fullhash}{SO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{booktitle}{Adjunct {Proceedings} of the 36th {Annual} {ACM} {Symposium} on {User} {Interface} {Software} and {Technology}}
+    \verb{doi}
+    \verb 10.1145/3586182.3625117
+    \endverb
+    \field{isbn}{9798400700965}
+    \field{pages}{1\bibrangedash 3}
+    \field{series}{{UIST} '23 {Adjunct}}
+    \field{shorttitle}{{LingoLand}}
+    \field{title}{{LingoLand}: {An} {AI}-{Assisted} {Immersive} {Game} for {Language} {Learning}}
+    \verb{url}
+    \verb https://dl.acm.org/doi/10.1145/3586182.3625117
+    \endverb
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{month}{10}
+    \field{year}{2023}
+    \field{urlday}{13}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{ahn2022can}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=AM}{%
+         family={Ahn},
+         familyi={A\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Brohan},
+         familyi={B\bibinitperiod},
+         given={Anthony},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BN}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Noah},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Chebotar},
+         familyi={C\bibinitperiod},
+         given={Yevgen},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CO}{%
+         family={Cortes},
+         familyi={C\bibinitperiod},
+         given={Omar},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=DB}{%
+         family={David},
+         familyi={D\bibinitperiod},
+         given={Byron},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=FC}{%
+         family={Finn},
+         familyi={F\bibinitperiod},
+         given={Chelsea},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FC}{%
+         family={Fu},
+         familyi={F\bibinitperiod},
+         given={Chuyuan},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GK}{%
+         family={Gopalakrishnan},
+         familyi={G\bibinitperiod},
+         given={Keerthana},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Hausman},
+         familyi={H\bibinitperiod},
+         given={Karol},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AMBABN+1}
+    \strng{fullhash}{AMBABNCYCODBFCFCGKHK+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Do as i can, not as i say: Grounding language in robotic affordances}
+    \field{journaltitle}{arXiv preprint arXiv:2204.01691}
+    \field{year}{2022}
+  \endentry
+
+  \entry{huang2022language}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=HW}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Wenlong},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={Abbeel},
+         familyi={A\bibinitperiod},
+         given={Pieter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Pathak},
+         familyi={P\bibinitperiod},
+         given={Deepak},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MI}{%
+         family={Mordatch},
+         familyi={M\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {PMLR}%
+    }
+    \strng{namehash}{HWAPPD+1}
+    \strng{fullhash}{HWAPPDMI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International Conference on Machine Learning}
+    \field{pages}{9118\bibrangedash 9147}
+    \field{title}{Language models as zero-shot planners: Extracting actionable knowledge for embodied agents}
+    \field{year}{2022}
+  \endentry
+
+  \entry{ouyang2022training}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=OL}{%
+         family={Ouyang},
+         familyi={O\bibinitperiod},
+         given={Long},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JX}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Xu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Almeida},
+         familyi={A\bibinitperiod},
+         given={Diogo},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Wainwright},
+         familyi={W\bibinitperiod},
+         given={Carroll},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Mishkin},
+         familyi={M\bibinitperiod},
+         given={Pamela},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ZC}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Chong},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Agarwal},
+         familyi={A\bibinitperiod},
+         given={Sandhini},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Slama},
+         familyi={S\bibinitperiod},
+         given={Katarina},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ray},
+         familyi={R\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OLWJJX+1}
+    \strng{fullhash}{OLWJJXADWCMPZCASSKRA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{27730\bibrangedash 27744}
+    \field{title}{Training language models to follow instructions with human feedback}
+    \field{volume}{35}
+    \field{journaltitle}{Advances in Neural Information Processing Systems}
+    \field{year}{2022}
+  \endentry
+
+  \entry{chen2021evaluating}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=CM}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Tworek},
+         familyi={T\bibinitperiod},
+         given={Jerry},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JH}{%
+         family={Jun},
+         familyi={J\bibinitperiod},
+         given={Heewoo},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=YQ}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Qiming},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=PHPdO}{%
+         family={Pinto},
+         familyi={P\bibinitperiod},
+         given={Henrique Ponde de\bibnamedelima Oliveira},
+         giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kaplan},
+         familyi={K\bibinitperiod},
+         given={Jared},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=EH}{%
+         family={Edwards},
+         familyi={E\bibinitperiod},
+         given={Harri},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BY}{%
+         family={Burda},
+         familyi={B\bibinitperiod},
+         given={Yuri},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=JN}{%
+         family={Joseph},
+         familyi={J\bibinitperiod},
+         given={Nicholas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Brockman},
+         familyi={B\bibinitperiod},
+         given={Greg},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CMTJJH+1}
+    \strng{fullhash}{CMTJJHYQPHPdOKJEHBYJNBG+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Evaluating large language models trained on code}
+    \field{journaltitle}{arXiv preprint arXiv:2107.03374}
+    \field{year}{2021}
+  \endentry
+
+  \entry{guan_leveraging_2023}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=GL}{%
+         family={Guan},
+         familyi={G\bibinitperiod},
+         given={Lin},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=VK}{%
+         family={Valmeekam},
+         familyi={V\bibinitperiod},
+         given={Karthik},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sreedharan},
+         familyi={S\bibinitperiod},
+         given={Sarath},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kambhampati},
+         familyi={K\bibinitperiod},
+         given={Subbarao},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Artificial Intelligence, notion}
+    \strng{namehash}{GLVKSS+1}
+    \strng{fullhash}{GLVKSSKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.48550/arXiv.2305.14909
+    \endverb
+    \field{note}{arXiv:2305.14909 [cs]}
+    \field{title}{Leveraging {Pre}-trained {Large} {Language} {Models} to {Construct} and {Utilize} {World} {Models} for {Model}-based {Task} {Planning}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2305.14909
+    \endverb
+    \field{month}{11}
+    \field{year}{2023}
+    \field{urlday}{26}
+    \field{urlmonth}{12}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{wang_describe_2023}{misc}{}
+    \name{author}{6}{}{%
+      {{hash=WZ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Zihao},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Cai},
+         familyi={C\bibinitperiod},
+         given={Shaofei},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Guanzhou},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Anji},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MX}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={Xiaojian},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Yitao},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Artificial Intelligence, notion}
+    \strng{namehash}{WZCSCG+1}
+    \strng{fullhash}{WZCSCGLAMXLY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.48550/arXiv.2302.01560
+    \endverb
+    \field{note}{arXiv:2302.01560 [cs]}
+    \field{shorttitle}{Describe, {Explain}, {Plan} and {Select}}
+    \field{title}{Describe, {Explain}, {Plan} and {Select}: {Interactive} {Planning} with {Large} {Language} {Models} {Enables} {Open}-{World} {Multi}-{Task} {Agents}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2302.01560
+    \endverb
+    \field{month}{10}
+    \field{year}{2023}
+    \field{urlday}{26}
+    \field{urlmonth}{12}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{park_choicemates_2023}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=PJ}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Jeongeon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Min},
+         familyi={M\bibinitperiod},
+         given={Bryan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MX}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={Xiaojuan},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Juho},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Artificial Intelligence, Computer Science - Human-Computer Interaction, notion}
+    \strng{namehash}{PJMBMX+1}
+    \strng{fullhash}{PJMBMXKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.48550/arXiv.2310.01331
+    \endverb
+    \field{note}{arXiv:2310.01331 [cs]}
+    \field{shorttitle}{{ChoiceMates}}
+    \field{title}{{ChoiceMates}: {Supporting} {Unfamiliar} {Online} {Decision}-{Making} with {Multi}-{Agent} {Conversational} {Interactions}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2310.01331
+    \endverb
+    \field{month}{10}
+    \field{year}{2023}
+    \field{urlday}{11}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{lin2023decision}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LJ}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Jessy},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TN}{%
+         family={Tomlin},
+         familyi={T\bibinitperiod},
+         given={Nicholas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Andreas},
+         familyi={A\bibinitperiod},
+         given={Jacob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Eisner},
+         familyi={E\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJTNAJ+1}
+    \strng{fullhash}{LJTNAJEJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Decision-Oriented Dialogue for Human-AI Collaboration}
+    \field{journaltitle}{arXiv preprint arXiv:2305.20076}
+    \field{year}{2023}
+  \endentry
+
+  \entry{zhou2022least}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=ZD}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Denny},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Sch{\"a}rli},
+         familyi={S\bibinitperiod},
+         given={Nathanael},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HL}{%
+         family={Hou},
+         familyi={H\bibinitperiod},
+         given={Le},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Scales},
+         familyi={S\bibinitperiod},
+         given={Nathan},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xuezhi},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Schuurmans},
+         familyi={S\bibinitperiod},
+         given={Dale},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Cui},
+         familyi={C\bibinitperiod},
+         given={Claire},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BO}{%
+         family={Bousquet},
+         familyi={B\bibinitperiod},
+         given={Olivier},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=LQ}{%
+         family={Le},
+         familyi={L\bibinitperiod},
+         given={Quoc},
+         giveni={Q\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZDSNHL+1}
+    \strng{fullhash}{ZDSNHLWJSNWXSDCCBOLQ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Least-to-most prompting enables complex reasoning in large language models}
+    \field{journaltitle}{arXiv preprint arXiv:2205.10625}
+    \field{year}{2022}
+  \endentry
+
+  \entry{wei2022chain}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{8}{}{%
+      {{hash=WJ}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xuezhi},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Schuurmans},
+         familyi={S\bibinitperiod},
+         given={Dale},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bosma},
+         familyi={B\bibinitperiod},
+         given={Maarten},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=XF}{%
+         family={Xia},
+         familyi={X\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Chi},
+         familyi={C\bibinitperiod},
+         given={Ed},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LQV}{%
+         family={Le},
+         familyi={L\bibinitperiod},
+         given={Quoc\bibnamedelima V},
+         giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=ZD}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Denny},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WJWXSD+1}
+    \strng{fullhash}{WJWXSDBMXFCELQVZD+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{24824\bibrangedash 24837}
+    \field{title}{Chain-of-thought prompting elicits reasoning in large language models}
+    \field{volume}{35}
+    \field{journaltitle}{Advances in Neural Information Processing Systems}
+    \field{year}{2022}
+  \endentry
+
+  \entry{xi_rise_2023}{misc}{}
+    \name{author}{29}{}{%
+      {{hash=XZ}{%
+         family={Xi},
+         familyi={X\bibinitperiod},
+         given={Zhiheng},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CW}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Wenxiang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=GX}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Xin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=DY}{%
+         family={Ding},
+         familyi={D\bibinitperiod},
+         given={Yiwen},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Hong},
+         familyi={H\bibinitperiod},
+         given={Boyang},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Ming},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Junzhe},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JS}{%
+         family={Jin},
+         familyi={J\bibinitperiod},
+         given={Senjie},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZE}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Enyu},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=ZR}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Rui},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FX}{%
+         family={Fan},
+         familyi={F\bibinitperiod},
+         given={Xiaoran},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xiao},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=XL}{%
+         family={Xiong},
+         familyi={X\bibinitperiod},
+         given={Limao},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Yuhao},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Weiran},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=JC}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Changhao},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zou},
+         familyi={Z\bibinitperiod},
+         given={Yicheng},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Xiangyang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=YZ}{%
+         family={Yin},
+         familyi={Y\bibinitperiod},
+         given={Zhangyue},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dou},
+         familyi={D\bibinitperiod},
+         given={Shihan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Weng},
+         familyi={W\bibinitperiod},
+         given={Rongxiang},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CW}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Wensen},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=ZQ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Qi},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=QW}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Wenjuan},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Yongyan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=QX}{%
+         family={Qiu},
+         familyi={Q\bibinitperiod},
+         given={Xipeng},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Xuanjing},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Gui},
+         familyi={G\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Artificial Intelligence, Computer Science - Computation and Language, notion}
+    \strng{namehash}{XZCWGX+1}
+    \strng{fullhash}{XZCWGXHWDYHBZMWJJSZEZRFXWXXLZYWWJCZYLXYZDSWRCWZQQWZYQXHXGT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.48550/arXiv.2309.07864
+    \endverb
+    \field{note}{arXiv:2309.07864 [cs]}
+    \field{shorttitle}{The {Rise} and {Potential} of {Large} {Language} {Model} {Based} {Agents}}
+    \field{title}{The {Rise} and {Potential} of {Large} {Language} {Model} {Based} {Agents}: {A} {Survey}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2309.07864
+    \endverb
+    \field{month}{09}
+    \field{year}{2023}
+    \field{urlday}{11}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{yao2022react}{article}{}
+    \name{author}{7}{}{%
+      {{hash=YS}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Shunyu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=YD}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Dian},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DN}{%
+         family={Du},
+         familyi={D\bibinitperiod},
+         given={Nan},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Shafran},
+         familyi={S\bibinitperiod},
+         given={Izhak},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=NK}{%
+         family={Narasimhan},
+         familyi={N\bibinitperiod},
+         given={Karthik},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Yuan},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YSZJYD+1}
+    \strng{fullhash}{YSZJYDDNSINKCY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{React: Synergizing reasoning and acting in language models}
+    \field{journaltitle}{arXiv preprint arXiv:2210.03629}
+    \field{year}{2022}
+  \endentry
+
+  \entry{wang_unleashing_2023}{misc}{}
+    \name{author}{6}{}{%
+      {{hash=WZ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Zhenhailong},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mao},
+         familyi={M\bibinitperiod},
+         given={Shaoguang},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Wenshan},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Ge},
+         familyi={G\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Furu},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=JH}{%
+         family={Ji},
+         familyi={J\bibinitperiod},
+         given={Heng},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Artificial Intelligence, Computer Science - Computation and Language, notion}
+    \strng{namehash}{WZMSWW+1}
+    \strng{fullhash}{WZMSWWGTWFJH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.48550/arXiv.2307.05300
+    \endverb
+    \field{note}{arXiv:2307.05300 [cs]}
+    \field{shorttitle}{Unleashing {Cognitive} {Synergy} in {Large} {Language} {Models}}
+    \field{title}{Unleashing {Cognitive} {Synergy} in {Large} {Language} {Models}: {A} {Task}-{Solving} {Agent} through {Multi}-{Persona} {Self}-{Collaboration}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2307.05300
+    \endverb
+    \field{month}{07}
+    \field{year}{2023}
+    \field{urlday}{11}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{chen_agentverse_2023}{misc}{}
+    \name{author}{16}{}{%
+      {{hash=CW}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Weize},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={Yusheng},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zuo},
+         familyi={Z\bibinitperiod},
+         given={Jingwei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=YC}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Cheng},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=YC}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Chenfei},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CCM}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Chi-Min},
+         giveni={C\bibinithyphendelim M\bibinitperiod},
+      }}%
+      {{hash=YH}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Heyang},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={Yaxi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HYH}{%
+         family={Hung},
+         familyi={H\bibinitperiod},
+         given={Yi-Hsin},
+         giveni={Y\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=QC}{%
+         family={Qian},
+         familyi={Q\bibinitperiod},
+         given={Chen},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=QY}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Yujia},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CX}{%
+         family={Cong},
+         familyi={C\bibinitperiod},
+         given={Xin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=XR}{%
+         family={Xie},
+         familyi={X\bibinitperiod},
+         given={Ruobing},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Zhiyuan},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Maosong},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Jie},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Computation and Language, notion}
+    \strng{namehash}{CWSYZJ+1}
+    \strng{fullhash}{CWSYZJYCYCCCMYHLYHYHQCQYCXXRLZSMZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.48550/arXiv.2308.10848
+    \endverb
+    \field{note}{arXiv:2308.10848 [cs]}
+    \field{shorttitle}{{AgentVerse}}
+    \field{title}{{AgentVerse}: {Facilitating} {Multi}-{Agent} {Collaboration} and {Exploring} {Emergent} {Behaviors}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2308.10848
+    \endverb
+    \field{month}{10}
+    \field{year}{2023}
+    \field{urlday}{11}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{wu_autogen_2023}{misc}{}
+    \name{author}{14}{}{%
+      {{hash=WQ}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Qingyun},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Bansal},
+         familyi={B\bibinitperiod},
+         given={Gagan},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jieyu},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Yiran},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Beibin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ZE}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Erkang},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=JL}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xiaoyun},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZS}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Shaokun},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jiale},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AAH}{%
+         family={Awadallah},
+         familyi={A\bibinitperiod},
+         given={Ahmed\bibnamedelima Hassan},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WRW}{%
+         family={White},
+         familyi={W\bibinitperiod},
+         given={Ryen\bibnamedelima W.},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Burger},
+         familyi={B\bibinitperiod},
+         given={Doug},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Chi},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Artificial Intelligence, Computer Science - Computation and Language, notion}
+    \strng{namehash}{WQBGZJ+1}
+    \strng{fullhash}{WQBGZJWYLBZEJLZXZSLJAAHWRWBDWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.48550/arXiv.2308.08155
+    \endverb
+    \field{note}{arXiv:2308.08155 [cs]}
+    \field{shorttitle}{{AutoGen}}
+    \field{title}{{AutoGen}: {Enabling} {Next}-{Gen} {LLM} {Applications} via {Multi}-{Agent} {Conversation}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2308.08155
+    \endverb
+    \field{month}{10}
+    \field{year}{2023}
+    \field{urlday}{11}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{chen_gamegpt_2023}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=CD}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Dake},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Hanbin},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Huo},
+         familyi={H\bibinitperiod},
+         given={Yunhao},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yuzhao},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Haoyang},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Artificial Intelligence, notion}
+    \strng{namehash}{CDWHHY+1}
+    \strng{fullhash}{CDWHHYLYZH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.48550/arXiv.2310.08067
+    \endverb
+    \field{note}{arXiv:2310.08067 [cs]}
+    \field{shorttitle}{{GameGPT}}
+    \field{title}{{GameGPT}: {Multi}-agent {Collaborative} {Framework} for {Game} {Development}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2310.08067
+    \endverb
+    \field{month}{10}
+    \field{year}{2023}
+    \field{urlday}{14}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{umarov2012believable}{article}{}
+    \name{author}{2}{}{%
+      {{hash=UI}{%
+         family={Umarov},
+         familyi={U\bibinitperiod},
+         given={Iskander},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mozgovoy},
+         familyi={M\bibinitperiod},
+         given={Maxim},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IGI Global}%
+    }
+    \strng{namehash}{UIMM1}
+    \strng{fullhash}{UIMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{37\bibrangedash 59}
+    \field{title}{Believable and effective AI agents in virtual worlds: Current state and future perspectives}
+    \field{volume}{4}
+    \field{journaltitle}{International Journal of Gaming and Computer-Mediated Simulations (IJGCMS)}
+    \field{year}{2012}
+  \endentry
+
+  \entry{josselson1996space}{book}{}
+    \name{author}{1}{}{%
+      {{hash=JR}{%
+         family={Josselson},
+         familyi={J\bibinitperiod},
+         given={Ruthellen},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Sage}%
+    }
+    \strng{namehash}{JR1}
+    \strng{fullhash}{JR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{The space between us: Exploring the dimensions of human relationships}
+    \field{year}{1996}
+  \endentry
+
+  \entry{plutchik1980general}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=PR}{%
+         family={Plutchik},
+         familyi={P\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{PR1}
+    \strng{fullhash}{PR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Theories of emotion}
+    \field{pages}{3\bibrangedash 33}
+    \field{title}{A general psychoevolutionary theory of emotion}
+    \field{year}{1980}
   \endentry
 \enddatalist
 \endinput

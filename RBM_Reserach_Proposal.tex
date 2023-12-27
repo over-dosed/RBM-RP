@@ -12,11 +12,13 @@
 \usepackage{graphicx}
 % \usepackage{epstopdf, epsfig}
 
+\usepackage[colorlinks,linkcolor=black]{hyperref}
 \usepackage{titlesec}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage{setspace}
+\usepackage{makecell}
 \usepackage[a4paper, left=25mm, right=25mm, top=30mm, bottom=30mm]{geometry}
 
 
@@ -34,15 +36,16 @@
 
 
 \begin{document}
+\begin{spacing}{1.5}
 
 % title, contents, abstract
 \pagenumbering{roman}
 \include{Pages/title_page}
-\spacing{1.5}
+
 
 \include{Pages/contents}
 
-\include{Pages/abstract}
+% \include{Pages/abstract}
 
 
 % main text
@@ -53,23 +56,16 @@
 \include{Pages/Part_2}
 
 
-\include{Style/instruction.tex} 
+% \include{Style/instruction.tex} 
 
-\section{Citations and references}
 
-%All papers included in the References section must be cited in the article, and vice versa. Citations should be included as, for example ``It has been shown \citep{Rogallo81} that...'' (using the {\verb}\citep} command, part of the natbib package) ``recent work by \citet{Dennis85}...'' (using {\verb}\citet}).
-The natbib package can be used to generate citation variations, as shown below. \cite{ngFederatedBayesianNetwork2022}
+\addcontentsline{toc}{section}{References} 
+\printbibliography
 
-The References section can either be built from individual \verb#\bibitem# commands, or can be built using BibTex. The BibTex files used to generate the references in this document can be found in the zip file in the Instructions for Contributors section of the JPP website.
+% \appendix
 
-Where there are up to ten authors, all authors' names should be given in the reference list. Where there are more than ten authors, only the first name should appear, followed by et al.
-
-Acknowledgements should be included at the end of the paper, before the References section or any appendicies, and should be a separate paragraph without a heading. Several anonymous individuals are thanked for contributions to these instructions.
-
-\appendix
-
-\section{}\label{appA}
-This appendix contains sample equations in the JPP style. Please refer to the {\LaTeX} source file for examples of how to display such equations in your manuscript.
+% \section{}\label{appA}
+% This appendix contains sample equations in the JPP style. Please refer to the {\LaTeX} source file for examples of how to display such equations in your manuscript.
 
 
 
@@ -83,8 +79,8 @@ This appendix contains sample equations in the JPP style. Please refer to the {\
 
 
 % \bibliography{jpp-instructions}
-\printbibliography
-% \bibliography{reference/reference2}
+% \section{References}
 
 
+\end{spacing}
 \end{document}
